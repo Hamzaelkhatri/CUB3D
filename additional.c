@@ -6,7 +6,7 @@
 /*   By: helkhatr <helkhatr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/21 21:12:08 by kstorozh          #+#    #+#             */
-/*   Updated: 2020/01/14 23:18:53 by helkhatr         ###   ########.fr       */
+/*   Updated: 2020/01/16 08:56:34 by helkhatr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,8 @@ void create_img(t_img *img_struct, void *img_mlx, t_params *params)
 	int size_line;
 	int endian;
 	void *img;
-	img_struct->map = mlx_get_data_addr(img_mlx, &params->bitpx, &size_line, &endian);
-	img_struct->size_line = size_line;
-	img_struct->img_mlx = img_mlx;
+	params->texx->data = mlx_get_data_addr(params->texx->img_ptr, &params->texx->bpp,
+										   &params->texx->size_line, &params->texx->endian);
+	// img_struct->size_line = size_line;
+	// img_struct->img_mlx = img_mlx;
 }
