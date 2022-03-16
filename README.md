@@ -1,4 +1,6 @@
 # CUB3D
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHamzaelkhatri%2FCUB3D.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHamzaelkhatri%2FCUB3D?ref=badge_shield)
+
 <strong>description</strong><br>
 This project is inspired by the world-famous eponymous 90’s game, which
 was the first FPS ever. It will enable you to explore ray-casting. Your goal will be to
@@ -390,3 +392,7 @@ What about window management?
 
 * I don't know of any way to move the window or place it in another area in mlx.
 https://top4top.io/downloadf-1509r7b6s1-zip.html
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHamzaelkhatri%2FCUB3D.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHamzaelkhatri%2FCUB3D?ref=badge_large)
